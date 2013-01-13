@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Netflix outside the United States?"
+date: 2013-01-08 19:36
+comments: true
+categories: 
+---
+Getting American flavoured internet
+--------------
+
+A few weeks ago I was wondering if it was possible to use Netflix in Belgium, so I started searching the web for ways to achieve this.
+
+I came across quite a VPN services during this quest but the one that looked the most promising to me [hidemyass.com](http://hidemyass.com/vpn/r9744) (please note that is a referral link). One of the main reasons that I chose hidemyass was that you can configure it on a router so it's possible to use Netflix(or any other country limited service) on your Playstation, Xbox, Apple TV,... but you can just install the client on your computer and use your browser.
+
+If you want to use a router for this you need that you can flash DD-WRT on (you can check it [here](http://www.dd-wrt.com/site/support/router-database)). Since I didn't have an old router I started looking online for a cheap router that I could use and bought the [TP-Link TL-WR1043ND](http://www.tp-link.com/en/products/details/?model=TL-WR1043ND) on [Bol.com](http://partnerprogramma.bol.com/click/click?p=1&t=url&s=17363&url=http%3A//www.bol.com/nl/p/tp-link-tl-wr1043nd-300mbps-wireless-router/1003004011473203/&f=TXL&name=router).
+Next I flashed the DD-WRT firmware on the router using the instructions found [here](http://www.dd-wrt.com/wiki/index.php/Installation).  After that I configured the hidemyass settings on the router like [this](http://wiki.hidemyass.com/DD-WRT_L2TP_Setup).
+When everything is setup correctly you can start exploring the American internet. 
+
+By default the Netflix application is hidden on most non-American devices I guess for not frustrating users with an unusable app so you need to change the region to USA.
+
+* Apple TV: Settings > General > iTunes Store > Location and choose United States
+* Playstation 3: [create a new ps network account](http://us.playstation.com/psn/) and choose United States as region, log in on your device and download Netflix
+
+The only thing left before you can start enjoying the Netflix goodness is registering an [account](http://netflix.com).
+
+{% img /images/suggestions.png %}
+
+Thoughts after one month
+-------------------------
+
+I'm realy loving every moment I'm using my setup here are some reasons:
+
+- the amount of content with stuff like:
+    * [Breaking Bad](http://www.imdb.com/title/tt0903747/)
+    * [Sons of Anarchy](http://www.imdb.com/title/tt1124373/)
+    * [Airwolf](http://www.imdb.com/title/tt0086662/)
+    * ...
+- [Netflix original content](http://www.youtube.com/watch?v=rlZUsPcChgI) (coming soon)
+- pickup where you left in your on 'any' device
+- access other exclusive content like the US google play store, so you can get books, movies, ... on your Android
+- content starts at the press of a button 
+- allmost everything has English subtitles 
+- recommendations on things to see based on your ratings
+
+And a few negative points:
+
+- Netflix hasn't got all the content :], but there are other services like hulu, hbo, ... so you can get extra content if you like
+- due to the latency surfing isn't a solid experience (no problems with streaming)
+
+Conclusion
+---------
+
+Watching content never has been easier for me fire up the application, select the video you want to watch, press play and you're done. So I would recommend using netflix to anyone who loves consuming tons of content.
