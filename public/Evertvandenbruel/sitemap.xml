@@ -2,15 +2,19 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://evertvdbruel.com/blog/2013/01/08/netflix/</loc>
-        <lastmod>2013-01-13T16:24:03+01:00</lastmod>
+        <lastmod>2013-01-13T19:22:43+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://evertvdbruel.com/about/</loc>
+        <lastmod>2013-01-22T00:10:05+01:00</lastmod>
     </url>
     <url>
         <loc>http://evertvdbruel.com/blog/archives/</loc>
-        <lastmod>2013-01-13T16:24:03+01:00</lastmod>
+        <lastmod>2013-01-13T19:22:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://evertvdbruel.com/</loc>
-        <lastmod>2013-01-13T16:24:03+01:00</lastmod>
+        <lastmod>2013-01-13T19:22:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://evertvdbruel.com/robots.txt</loc>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[evertvdbruel blog]]></title>
+  <title><![CDATA[Evert Van den Bruel: Android, Ruby, technology and gadgets]]></title>
   <link href="http://evertvdbruel.com/atom.xml" rel="self"/>
   <link href="http://evertvdbruel.com/"/>
-  <updated>2013-01-13T16:44:40+01:00</updated>
+  <updated>2013-01-22T00:10:05+01:00</updated>
   <id>http://evertvdbruel.com/</id>
   <author>
-    <name><![CDATA[Evertvdbruel]]></name>
+    <name><![CDATA[Evert Van den Bruel]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Netflix outside America?]]></title>
+    <title type="html"><![CDATA[Netflix outside the United States?]]></title>
     <link href="http://evertvdbruel.com/blog/2013/01/08/netflix/"/>
     <updated>2013-01-08T19:36:00+01:00</updated>
     <id>http://evertvdbruel.com/blog/2013/01/08/netflix</id>
@@ -24,7 +24,7 @@
 
 <p>I came across quite a VPN services during this quest but the one that looked the most promising to me <a href="http://hidemyass.com/vpn/r9744">hidemyass.com</a> (please note that is a referral link). One of the main reasons that I chose hidemyass was that you can configure it on a router so it&#8217;s possible to use Netflix(or any other country limited service) on your Playstation, Xbox, Apple TV,&#8230; but you can just install the client on your computer and use your browser.</p>
 
-<p>If you want to use a router for this you need that you can flash DD-WRT on (you can check it <a href="http://www.dd-wrt.com/site/support/router-database">here</a>). Since I didn&#8217;t have an old router I started looking online for a cheap router that I could use and bought the <a href="http://www.tp-link.com/en/products/details/?model=TL-WR1043ND">TP-Link TL-WR1043ND</a> on <a href="http://partnerprogramma.bol.com/click/click?p=1&amp;t=url&amp;s=17363&amp;url=http%3A//www.bol.com/nl/p/tp-link-tl-wr1043nd-300mbps-wireless-router/1003004011473203/&amp;f=TXL&amp;name=router">Bol.com</a>.
+<p>If you want to use a router for this you need that you can flash DD-WRT on (you can check it <a href="http://www.dd-wrt.com/site/support/router-database">here</a>). Since I didn&#8217;t have an old router I started looking online for a cheap router that I could use and bought the <a href="http://www.tp-link.com/en/products/details/?model=TL-WR1043ND">TP-Link TL-WR1043ND</a> on <a href="http://partnerprogramma.bol.com/click/click?p=1&amp;t=url&amp;s=17363&amp;url=http%3A//www.bol.com/nl/p/tp-link-tl-wr1043nd-300mbps-wireless-router/1003004011473203/&amp;f=TXL&amp;name=router">Bol.com</a> or you can get it on <a href="http://www.amazon.co.uk/gp/product/B002YETVTQ/ref=as_li_tf_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B002YETVTQ&amp;linkCode=as2&amp;tag=evertvdbruelc-21">Amazon.co.uk</a>.
 Next I flashed the DD-WRT firmware on the router using the instructions found <a href="http://www.dd-wrt.com/wiki/index.php/Installation">here</a>.  After that I configured the hidemyass settings on the router like <a href="http://wiki.hidemyass.com/DD-WRT_L2TP_Setup">this</a>.
 When everything is setup correctly you can start exploring the American internet.</p>
 
