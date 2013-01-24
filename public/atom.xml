@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Evert Van den Bruel: Android, Ruby, technology and gadgets]]></title>
+  <link href="http://evertvdbruel.com/atom.xml" rel="self"/>
+  <link href="http://evertvdbruel.com/"/>
+  <updated>2013-01-24T19:56:45+01:00</updated>
+  <id>http://evertvdbruel.com/</id>
+  <author>
+    <name><![CDATA[Evert Van den Bruel]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google maps v2 on Android]]></title>
+    <link href="http://evertvdbruel.com/blog/2013/01/22/google-maps-v2-on-android/"/>
+    <updated>2013-01-22T19:59:00+01:00</updated>
+    <id>http://evertvdbruel.com/blog/2013/01/22/google-maps-v2-on-android</id>
+    <content type="html"><![CDATA[<p>File > new > Android Application Project</p>
+
+<p> <android-sdk-folder>/extras/google/google_play_services/.</p>
+
+<p> https://code.google.com/apis/console/</p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/activity_main.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/add_lib.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/add_lib_to_project.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/adding_persmision.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/android_sdk_manager.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/console_api_access.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/console_enable_v2.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/create_project.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/manifest_my_key.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/manifest_permissions.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/opengl.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/start_activity.png"></p>
+
+<p> <img src="http://evertvdbruel.com/images/android-map-v2/terminal_generate_sha1.png"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Netflix outside the United States?]]></title>
+    <link href="http://evertvdbruel.com/blog/2013/01/08/netflix/"/>
+    <updated>2013-01-08T19:36:00+01:00</updated>
+    <id>http://evertvdbruel.com/blog/2013/01/08/netflix</id>
+    <content type="html"><![CDATA[<h2>Getting American flavoured internet</h2>
+
+<p>A few weeks ago I was wondering if it was possible to use Netflix in Belgium, so I started searching the web for ways to achieve this.</p>
+
+<p>I came across quite a VPN services during this quest but the one that looked the most promising to me <a href="http://hidemyass.com/vpn/r9744">hidemyass.com</a> (please note that is a referral link). One of the main reasons that I chose hidemyass was that you can configure it on a router so it&#8217;s possible to use Netflix(or any other country limited service) on your Playstation, Xbox, Apple TV,&#8230; but you can just install the client on your computer and use your browser.</p>
+
+<p>If you want to use a router for this you need that you can flash DD-WRT on (you can check it <a href="http://www.dd-wrt.com/site/support/router-database">here</a>). Since I didn&#8217;t have an old router I started looking online for a cheap router that I could use and bought the <a href="http://www.tp-link.com/en/products/details/?model=TL-WR1043ND">TP-Link TL-WR1043ND</a> on <a href="http://partnerprogramma.bol.com/click/click?p=1&amp;t=url&amp;s=17363&amp;url=http%3A//www.bol.com/nl/p/tp-link-tl-wr1043nd-300mbps-wireless-router/1003004011473203/&amp;f=TXL&amp;name=router">Bol.com</a> or you can get it on <a href="http://www.amazon.co.uk/gp/product/B002YETVTQ/ref=as_li_tf_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B002YETVTQ&amp;linkCode=as2&amp;tag=evertvdbruelc-21">Amazon.co.uk</a>.
+Next I flashed the DD-WRT firmware on the router using the instructions found <a href="http://www.dd-wrt.com/wiki/index.php/Installation">here</a>.  After that I configured the hidemyass settings on the router like <a href="http://wiki.hidemyass.com/DD-WRT_L2TP_Setup">this</a>.
+When everything is setup correctly you can start exploring the American internet.</p>
+
+<p>By default the Netflix application is hidden on most non-American devices I guess for not frustrating users with an unusable app so you need to change the region to USA.</p>
+
+<ul>
+<li>Apple TV: Settings > General > iTunes Store > Location and choose United States</li>
+<li>Playstation 3: <a href="http://us.playstation.com/psn/">create a new ps network account</a> and choose United States as region, log in on your device and download Netflix</li>
+</ul>
+
+
+<p>The only thing left before you can start enjoying the Netflix goodness is registering an <a href="http://netflix.com">account</a>.</p>
+
+<p><img src="http://evertvdbruel.com/images/suggestions.png"></p>
+
+<h2>Thoughts after one month</h2>
+
+<p>I&#8217;m realy loving every moment I&#8217;m using my setup here are some reasons:</p>
+
+<ul>
+<li>the amount of content with stuff like:
+
+<ul>
+<li><a href="http://www.imdb.com/title/tt0903747/">Breaking Bad</a></li>
+<li><a href="http://www.imdb.com/title/tt1124373/">Sons of Anarchy</a></li>
+<li><a href="http://www.imdb.com/title/tt0086662/">Airwolf</a></li>
+<li>&#8230;</li>
+</ul>
+</li>
+<li><a href="http://www.youtube.com/watch?v=rlZUsPcChgI">Netflix original content</a> (coming soon)</li>
+<li>pickup where you left in your on &#8216;any&#8217; device</li>
+<li>access other exclusive content like the US google play store, so you can get books, movies, &#8230; on your Android</li>
+<li>content starts at the press of a button</li>
+<li>allmost everything has English subtitles</li>
+<li>recommendations on things to see based on your ratings</li>
+</ul>
+
+
+<p>And a few negative points:</p>
+
+<ul>
+<li>Netflix hasn&#8217;t got all the content :], but there are other services like hulu, hbo, &#8230; so you can get extra content if you like</li>
+<li>due to the latency surfing isn&#8217;t a solid experience (no problems with streaming)</li>
+</ul>
+
+
+<h2>Conclusion</h2>
+
+<p>Watching content never has been easier for me fire up the application, select the video you want to watch, press play and you&#8217;re done. So I would recommend using netflix to anyone who loves consuming tons of content.</p>
+]]></content>
+  </entry>
+  
+</feed>
